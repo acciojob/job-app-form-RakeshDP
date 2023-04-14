@@ -10,48 +10,42 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<form method="post">
-	<div>
+<form method="post" action="">
+	
 		<label for = "name">Name*</label>
-	    <input type= "text" required id= "name" >
-	</div>
-	<div>
+	    <input type= "text"  id= "name" required>
+	
 		<label for = "email">Email*</label>
-	    <input type= "email" required id= "email" >
-	</div>
-	<div>
+	    <input type= "email"  id= "email" required >
+	
 		<label>Gender*</label>
 	    <input type= "radio" required id="male"  name="gender">
 		<label for= "gender_m">Male</label>
 		<input type="radio" required  name="gender">
 		<label for="gender_f">Female</label>
-	</div>
-	<div>
+	
 		<label for = "laptop">Laptop Brands</label>
 	    <select required  id="laptop">
 			<option value = "apple">Apple</option>
 			<option value = "asus">Asus</option>
 			<option value = "hp">HP</option>
 		</select>
-	</div>
-	<div>
+	
 		<label for = "age">Age*</label>
 	    <input type= "number" required id="age" >
-	</div>
-	<div>
+	
 		<label for = "dob">DOB*</label>
 	    <input type= "date" required id="dob">
-	</div>
-	<div>
+	
 		<label for = "password">Password*</label>
 	    <input type= "password" required id="password" >
-	</div>
 	
-	<button type="button">Submit</button>
-	<div>
+	
+	<button type="submit">Submit</button>
+	
 		<label for="portfolio">Portfolio URL:</label>
         <input type="url" id="portfolio" name="portfolio" required>
-	</div>
+	
 
 </form>
 </body>
